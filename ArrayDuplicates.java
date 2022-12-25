@@ -23,9 +23,9 @@ public class ArrayDuplicates {
     public static void main(String[]args){
 
         duplicate d=new duplicate();
-        char arr_char[]={'a','b','c','z','y','f'};
-        System.out.println(d.a_duplucate(arr_char));
-        if(d.a_duplucate(arr_char)){
+        String s ="abcdefghi";
+        
+        if(d.a_duplucate(s.toLowerCase().toCharArray())){
             System.out.println("Array contains no duplicate Characters");
         }
         else
